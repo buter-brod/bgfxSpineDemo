@@ -1,0 +1,4 @@
+G:/Documents/Programming/bgfxSpine/repos/spine-runtimes-3.8/spine-cpp/bin/CMakeFiles/INSTALL.dir
+G:/Documents/Programming/bgfxSpine/repos/spine-runtimes-3.8/spine-cpp/bin/CMakeFiles/spine-cpp.dir
+G:/Documents/Programming/bgfxSpine/repos/spine-runtimes-3.8/spine-cpp/bin/CMakeFiles/ALL_BUILD.dir
+G:/Documents/Programming/bgfxSpine/repos/spine-runtimes-3.8/spine-cpp/bin/CMakeFiles/ZERO_CHECK.dir

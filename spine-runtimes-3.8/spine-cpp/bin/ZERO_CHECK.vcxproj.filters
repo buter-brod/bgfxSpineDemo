@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\bin\CMakeFiles\270571b3a4a70abea035bcc0ef37ddac\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{199EED01-EC5E-3E2D-9AF2-6348B62637F6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

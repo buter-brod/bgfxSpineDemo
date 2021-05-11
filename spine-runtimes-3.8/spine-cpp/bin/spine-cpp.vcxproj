@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1CB97757-B91B-36E8-B328-3CE019A29DBE}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>spine-cpp</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">spine-cpp.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">spine-cpp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">spine-cpp.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">spine-cpp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">spine-cpp.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">spine-cpp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">spine-cpp.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">spine-cpp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\include;G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\include;G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\include;G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\include;G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\include;G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\include;G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\include;G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\include;G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\include;G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\include;G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\include;G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\include;G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule G:/Documents/Programming/bgfxSpine/repos/spine-runtimes-3.8/spine-cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/Documents/Programming/bgfxSpine/repos/spine-runtimes-3.8/spine-cpp -BG:/Documents/Programming/bgfxSpine/repos/spine-runtimes-3.8/spine-cpp/bin --check-stamp-file G:/Documents/Programming/bgfxSpine/repos/spine-runtimes-3.8/spine-cpp/bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\bin\CMakeFiles\3.14.5\CMakeCCompiler.cmake;G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\bin\CMakeFiles\3.14.5\CMakeCXXCompiler.cmake;G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\bin\CMakeFiles\3.14.5\CMakeRCCompiler.cmake;G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\bin\CMakeFiles\3.14.5\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule G:/Documents/Programming/bgfxSpine/repos/spine-runtimes-3.8/spine-cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/Documents/Programming/bgfxSpine/repos/spine-runtimes-3.8/spine-cpp -BG:/Documents/Programming/bgfxSpine/repos/spine-runtimes-3.8/spine-cpp/bin --check-stamp-file G:/Documents/Programming/bgfxSpine/repos/spine-runtimes-3.8/spine-cpp/bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\bin\CMakeFiles\3.14.5\CMakeCCompiler.cmake;G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\bin\CMakeFiles\3.14.5\CMakeCXXCompiler.cmake;G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\bin\CMakeFiles\3.14.5\CMakeRCCompiler.cmake;G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\bin\CMakeFiles\3.14.5\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule G:/Documents/Programming/bgfxSpine/repos/spine-runtimes-3.8/spine-cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/Documents/Programming/bgfxSpine/repos/spine-runtimes-3.8/spine-cpp -BG:/Documents/Programming/bgfxSpine/repos/spine-runtimes-3.8/spine-cpp/bin --check-stamp-file G:/Documents/Programming/bgfxSpine/repos/spine-runtimes-3.8/spine-cpp/bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\bin\CMakeFiles\3.14.5\CMakeCCompiler.cmake;G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\bin\CMakeFiles\3.14.5\CMakeCXXCompiler.cmake;G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\bin\CMakeFiles\3.14.5\CMakeRCCompiler.cmake;G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\bin\CMakeFiles\3.14.5\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule G:/Documents/Programming/bgfxSpine/repos/spine-runtimes-3.8/spine-cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/Documents/Programming/bgfxSpine/repos/spine-runtimes-3.8/spine-cpp -BG:/Documents/Programming/bgfxSpine/repos/spine-runtimes-3.8/spine-cpp/bin --check-stamp-file G:/Documents/Programming/bgfxSpine/repos/spine-runtimes-3.8/spine-cpp/bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\bin\CMakeFiles\3.14.5\CMakeCCompiler.cmake;G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\bin\CMakeFiles\3.14.5\CMakeCXXCompiler.cmake;G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\bin\CMakeFiles\3.14.5\CMakeRCCompiler.cmake;G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\bin\CMakeFiles\3.14.5\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\Animation.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\AnimationState.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\AnimationStateData.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\Atlas.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\AtlasAttachmentLoader.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\Attachment.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\AttachmentLoader.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\AttachmentTimeline.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\Bone.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\BoneData.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\BoundingBoxAttachment.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\ClippingAttachment.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\ColorTimeline.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\ConstraintData.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\CurveTimeline.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\DeformTimeline.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\DrawOrderTimeline.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\Event.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\EventData.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\EventTimeline.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\Extension.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\IkConstraint.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\IkConstraintData.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\IkConstraintTimeline.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\Json.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\LinkedMesh.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\MathUtil.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\MeshAttachment.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\PathAttachment.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\PathConstraint.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\PathConstraintData.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\PathConstraintMixTimeline.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\PathConstraintPositionTimeline.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\PathConstraintSpacingTimeline.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\PointAttachment.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\RTTI.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\RegionAttachment.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\RotateTimeline.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\ScaleTimeline.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\ShearTimeline.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\Skeleton.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\SkeletonBinary.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\SkeletonBounds.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\SkeletonClipping.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\SkeletonData.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\SkeletonJson.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\Skin.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\Slot.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\SlotData.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\SpineObject.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\TextureLoader.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\Timeline.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\TransformConstraint.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\TransformConstraintData.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\TransformConstraintTimeline.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\TranslateTimeline.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\Triangulator.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\TwoColorTimeline.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\Updatable.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\VertexAttachment.cpp" />
+    <ClCompile Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\src\spine\VertexEffect.cpp" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\Animation.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\AnimationState.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\AnimationStateData.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\Atlas.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\AtlasAttachmentLoader.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\Attachment.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\AttachmentLoader.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\AttachmentTimeline.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\AttachmentType.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\BlendMode.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\Bone.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\BoneData.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\BoundingBoxAttachment.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\ClippingAttachment.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\Color.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\ColorTimeline.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\ConstraintData.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\ContainerUtil.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\CurveTimeline.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\Debug.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\DeformTimeline.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\DrawOrderTimeline.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\Event.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\EventData.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\EventTimeline.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\Extension.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\HasRendererObject.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\HashMap.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\IkConstraint.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\IkConstraintData.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\IkConstraintTimeline.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\Json.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\LinkedMesh.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\MathUtil.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\MeshAttachment.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\MixBlend.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\MixDirection.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\PathAttachment.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\PathConstraint.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\PathConstraintData.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\PathConstraintMixTimeline.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\PathConstraintPositionTimeline.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\PathConstraintSpacingTimeline.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\PointAttachment.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\Pool.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\PositionMode.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\RTTI.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\RegionAttachment.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\RotateMode.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\RotateTimeline.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\ScaleTimeline.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\ShearTimeline.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\Skeleton.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\SkeletonBinary.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\SkeletonBounds.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\SkeletonClipping.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\SkeletonData.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\SkeletonJson.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\Skin.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\Slot.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\SlotData.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\SpacingMode.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\SpineObject.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\SpineString.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\TextureLoader.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\Timeline.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\TimelineType.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\TransformConstraint.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\TransformConstraintData.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\TransformConstraintTimeline.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\TransformMode.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\TranslateTimeline.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\Triangulator.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\TwoColorTimeline.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\Updatable.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\Vector.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\VertexAttachment.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\VertexEffect.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\Vertices.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\dll.h" />
+    <ClInclude Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\spine-cpp\include\spine\spine.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="G:\Documents\Programming\bgfxSpine\repos\spine-runtimes-3.8\spine-cpp\bin\ZERO_CHECK.vcxproj">
+      <Project>{86BF184B-F964-348C-9D73-17F924B757A7}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

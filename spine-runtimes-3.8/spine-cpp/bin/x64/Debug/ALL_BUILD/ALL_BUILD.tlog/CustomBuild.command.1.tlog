@@ -1,0 +1,10 @@
+^G:\DOCUMENTS\PROGRAMMING\BGFXSPINE\REPOS\SPINE-RUNTIMES-3.8\SPINE-CPP\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/Documents/Programming/bgfxSpine/repos/spine-runtimes-3.8/spine-cpp -BG:/Documents/Programming/bgfxSpine/repos/spine-runtimes-3.8/spine-cpp/bin --check-stamp-file G:/Documents/Programming/bgfxSpine/repos/spine-runtimes-3.8/spine-cpp/bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
